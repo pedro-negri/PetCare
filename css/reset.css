@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+}
+
+main{
+    margin-left: 35vh;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
