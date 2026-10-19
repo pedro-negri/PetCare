@@ -60,3 +60,13 @@ assets/: Pasta destinada a ícones e imagens locais (quando aplicável).
 Clonar o Repositório:
 
 git clone https://github.com/pedro-negri/PetCare.git
+
+🎯 Desafios Técnicos e Aprendizados
+
+Convenção BEM na Prática: Manter a consistência das classes em todo o documento sem sobrepor seletores globais.
+
+Gerenciamento de Posições Fixas: Coordenar a navegação lateral e o rodapé fixos de forma que o conteúdo principal rolasse sem sobreposições indesejadas.
+
+Tipografia e Escala Relativa: Configuração da porcentagem da fonte base no elemento html para garantir o uso correto de rem em margens, padding e fontes.
+
+Responsividade sem Frameworks: Estruturação de breakpoints manuais via media queries para adaptar o menu lateral fixo para um layout no topo/colapsado em telas menores.
