@@ -22,7 +22,7 @@
     color: var(--color-sidebar-text);
 }
 
-.vet-section__menu{
+.vet-section__list{
     flex-direction: column;
     display: flex;
     gap: 12px;
