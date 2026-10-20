@@ -1,12 +1,12 @@
 @import url('./variables.css');
 @import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 .vet-section__sidebar{
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100%;
     background-color: var(--color-sidebar-bg);
     padding: 20px 20px;
@@ -19,7 +19,9 @@
 .vet-section__list{
     flex-direction: column;
     display: flex;
-    gap: 12px;
+    gap: 10px;
+    font-size: var(--font-size-sm);
+
 }
 
 .vet-section__link{
@@ -27,11 +29,122 @@
 }
 
 .vet-section{
-
+    display: flex;
     height: 100vh;
     width: 100%;
     background-color: var(--color-bg-main);
     align-items: center;
     justify-content: center;
     padding: 0 5%;
+}
+
+.vet-section__text{
+    width: 900px;
+}
+
+
+.vet-section__titulo{
+    flex-direction: column;
+    color: var(--color-text-title);
+}
+
+.vet-section__subtitulo{
+   color: var(--color-primary);
+}
+
+.brand-card__especialidades{
+    display: flex;
+}
+
+.vet-section__cards{
+    margin: 10px;
+    background-color: var(--color-bg-card);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: var(--font-size-sm);
+}
+
+.card-veterinario{
+    background-color: var(--color-bg-card);
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-image__meio{
+    margin-bottom: 25px;
+}
+
+.vet-section__infra{
+    padding-top: 50px;   
+    font-size: var(--font-size-sm);
+    box-shadow: 5 20 15;
+ 
+}
+
+.section-infra__text{
+    display: flex;
+}
+
+.card-text__infra{
+    background-color: var(--color-bg-card);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: var(--shadow-card);
+}
+
+.image-veterinaria__infra{
+    width: 600px;
+}
+
+.faq{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    scroll-margin-top: var(--header-height);
+}
+
+.faq__title{
+    font-size: var(--font-size-xl);
+    color: var(--color-primary);
+    margin-bottom: 25px;
+}
+
+.faq__wrapper{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.faq__item{
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 14px 20px;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition);
+}
+
+.faq__item[open]{
+    border-color: var(--color-primary);
+}
+
+.faq__summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--color-secondary);
+}
+
+.faq__text {
+  margin-top: 10px;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.footer{
+    
 }
